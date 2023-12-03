@@ -9,7 +9,7 @@ function App() {
     return words[Math.floor(Math.random() * words.length)];
   });
   const [guessedLetters, setGuessedLetters] = useState<string[]>([]);
-  // console.log("wordToGuess :>> ", wordToGuess);
+  console.log("wordToGuess :>> ", wordToGuess);
 
   return (
     <div
@@ -32,7 +32,9 @@ function App() {
       </div>
       <HangmanDrawing />
       <HangmanWord />
-      <Keyboard />
+      <div style={{ alignSelf: "stretch" }}>
+        <Keyboard />
+      </div>
     </div>
   );
 }
