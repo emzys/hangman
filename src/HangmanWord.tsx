@@ -3,7 +3,7 @@ type HangmanWordProps = {
   wordToGuess: string;
 };
 
-export function HangmanWord({ guessedLetters, wordToGuess }): HangmanWordProps {
+export function HangmanWord({ guessedLetters, wordToGuess }: HangmanWordProps) {
   // const word = "text";
   // const guessedLetters = ["t", "e"];
   return (
