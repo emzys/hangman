@@ -12,6 +12,7 @@
 .btn.active {
   /* background-color: teal; */
   background-color: darkcyan;
+  border: 3px solid black;
 }
 .btn.inactive {
   opacity: 0.3;
@@ -21,4 +22,5 @@
 .btn:focus {
   /* background-color: aquamarine; */
   background-color: rgb(14, 177, 177);
+  border: 3px solid black;
 }
